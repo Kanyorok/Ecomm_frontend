@@ -1,0 +1,45 @@
+/* Add this to your CSS file */
+.custom-mdb-table .pagination {
+    @apply flex justify-center items-center space-x-2 mt-4;
+}
+
+.custom-mdb-table .pagination li {
+    @apply px-3 py-1 border rounded hover:bg-blue-100;
+}
+
+.custom-mdb-table .pagination li.active {
+    @apply bg-blue-500 text-white border-blue-500;
+}
+
+.custom-mdb-table .pagination li:hover {
+    @apply bg-blue-200;
+}
+
+.custom-mdb-table .dataTables_filter input {
+    @apply border border-gray-300 rounded px-3 py-1 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.custom-mdb-table .dataTables_length select {
+    @apply border border-gray-300 rounded px-3 py-1 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.custom-mdb-table table {
+    @apply w-full text-left;
+}
+
+.custom-mdb-table th, .custom-mdb-table td {
+    @apply border border-gray-300 px-4 py-2;
+}
+
+.custom-mdb-table thead {
+    @apply bg-gray-200 text-gray-600;
+}
+
+.custom-mdb-table tbody tr:nth-child(even) {
+    @apply bg-gray-50;
+}
+
+.custom-mdb-table tbody tr:hover {
+    @apply bg-gray-100;
+}
+
